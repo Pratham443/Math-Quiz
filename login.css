@@ -1,0 +1,26 @@
+body {
+    background-image: url("login-image.png");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+#login-div {
+    float: right;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+}
+
+#login-div h1 {
+    color: dodgerblue;
+}
+
+#login-div h3 {
+    color: lightskyblue
+}
+
+.form-control {
+    color: rgb(101, 215, 204);
+    font-weight: 400;
+}
