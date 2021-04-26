@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Math Quiz Game</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body class="body">
+        <div class="container">
+            <center>
+                <h1>Math Quiz Game!</h1>
+                <br>
+
+                <div id="turn">
+                    <h3 id="question_turn">Question Turn :</h3>
+                    <h3 id="answer_turn">Answer Turn : </h3>
+                </div>
+
+                <div id="score">
+                    <h2>Score :</h2>
+                    <hr>
+                    <h4 id="player1_score"></h4>
+                    <br>
+                    <h4 id="player2_score"></h4>
+                </div>
+                <br><br><br><br><br><br><br><br><br>
+                <div id="output">
+                    <h2>Question: </h2>
+                    <hr>
+                    <h3>Number 1 : </h3>
+                    <input id="number1" type="text" class="form-control" placeholder="Number 1">
+                    <h3>Number 2 : </h3>
+                    <input id="number2" type="text" class="form-control" placeholder="Number 2">
+                    <h3>Operation : </h3>
+                    <input id="operation" type="text" class="form-control" placeholder="Operation">
+                    <br>
+                    <button class="btn btn-info" onclick="send()">Send</button>
+                </div>
+            </center>
+        </div>
+        <script src="game.js"></script>
+    </body>
+</html> 
